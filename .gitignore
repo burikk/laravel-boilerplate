@@ -19,3 +19,4 @@ yarn-error.log
 /.vscode
 /var
 /bootstrap/cache/
+/.php_cs.cache

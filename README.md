@@ -3,6 +3,7 @@
 * Laravel 10.2.0
 * MySQL 8.0
 * Nginx 1.23.3
+* latest node
 
 1) After cloning repo put environmental variables into **.env** (you need to create this file) as in **.env.example**
 2) `docker compose up -d` to build and run up containers
@@ -10,5 +11,7 @@
 If they are not, just enter `sudo chown -R YOURUSER:YOURGROUP var` outside the PHP container
 4) Get into PHP container running command `docker compose exec php bash`
 5) To install Composer dependencies run `composer install && composer dump-autoload` in the PHP container
-6) Check the `/` route if it's working and shows you Laravel greeting page
-7) Enjoy and develop!
+6) Get into NPM container `docker compose exec npm bash`
+7) Install packages using `npm install` inside NPM container
+8) Check the `/` route if it's working and shows you Laravel greeting page
+9) Enjoy and develop!

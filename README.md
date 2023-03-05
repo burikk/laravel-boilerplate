@@ -4,6 +4,7 @@
 * MySQL 8.0
 * Nginx 1.23.3
 * latest node
+* React JS 18.2
 
 1) After cloning repo put environmental variables into **.env** (you need to create this file) as in **.env.example**
 2) `docker compose up -d` to build and run up containers
@@ -13,5 +14,6 @@ If they are not, just enter `sudo chown -R YOURUSER:YOURGROUP var` outside the P
 5) To install Composer dependencies run `composer install && composer dump-autoload` in the PHP container
 6) Get into NPM container `docker compose exec npm bash`
 7) Install packages using `npm install` inside NPM container
-8) Check the `/` route if it's working and shows you Laravel greeting page
-9) Enjoy and develop!
+8) Run `npm run dev` inside NPM container
+9) Check the `/` route if it's working and shows you Laravel greeting page
+10) Enjoy and develop!

@@ -4,7 +4,6 @@
 * MySQL 8.0
 * Nginx 1.23.3
 * latest node
-* React JS 18.2
 
 1) After cloning repo put environmental variables into **.env** (you need to create this file) as in **.env.example**
 2) `docker compose up -d` to build and run up containers

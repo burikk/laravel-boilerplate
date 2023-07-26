@@ -5,8 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-        @viteReactRefresh
-        @vite('resources/js/app.tsx')
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
@@ -17,7 +15,5 @@
         </style>
     </head>
     <body class="antialiased">
-        <div id="app"></div>
-    Hello
     </body>
 </html>
